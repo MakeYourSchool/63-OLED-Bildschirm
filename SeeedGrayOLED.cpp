@@ -368,6 +368,71 @@ unsigned char SeeedGrayOLED::putNumber(long long_num) {
 
 }
 
+unsigned char SeeedGrayOLED::putFloat(float floatNumber, unsigned char decimal) {
+    unsigned int temp = 0;
+    float decy = 0.0;
+    float rounding = 0.5;
+    unsigned char f = 0;
+    if (floatNumber < 0.0) {
+        putString("-");
+        floatNumber = -floatNumber;
+        f += 1;
+    }
+    for (unsigned char i = 0; i < decimal; ++i) {
+        rounding /= 10.0;
+    }
+    floatNumber += rounding;
+
+    temp = floatNumber;
+    f += putNumber(temp);
+    if (decimal > 0) {
+        putChar('.');
+        f += 1;
+    }
+    decy = floatNumber - temp; //decimal part,
+    for (unsigned char i = 0; i < decimal; i++) { //4
+        decy *= 10; // for the next decimal
+        temp = decy;//get the decimal
+        putNumber(temp);
+        decy -= temp;
+    }
+    f += decimal;
+    return f;
+}
+unsigned char SeeedGrayOLED::putFloat(float floatNumber) {
+    unsigned char decimal = 2;
+    unsigned int temp = 0;
+    float decy = 0.0;
+    float rounding = 0.5;
+    unsigned char f = 0;
+    if (floatNumber < 0.0) {
+        putString("-");
+        floatNumber = -floatNumber;
+        f += 1;
+    }
+    for (unsigned char i = 0; i < decimal; ++i) {
+        rounding /= 10.0;
+    }
+    floatNumber += rounding;
+
+    temp = floatNumber;
+    f += putNumber(temp);
+    if (decimal > 0) {
+        putChar('.');
+        f += 1;
+    }
+    decy = floatNumber - temp; //decimal part,
+    for (unsigned char i = 0; i < decimal; i++) { //4
+        decy *= 10; // for the next decimal
+        temp = decy;//get the decimal
+        putNumber(temp);
+        decy -= temp;
+    }
+    f += decimal;
+    return f;
+}
+
+
 void SeeedGrayOLED::drawBitmap(const unsigned char* bitmaparray, int bytes) {
     if (Drive_IC == SSD1327) {
         char localAddressMode = addressingMode;
