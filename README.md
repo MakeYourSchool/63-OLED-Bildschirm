@@ -1,5 +1,13 @@
-## OLED_Display_96X96  [![Build Status](https://travis-ci.com/Seeed-Studio/OLED_Display_96X96.svg?branch=master)](https://travis-ci.com/Seeed-Studio/OLED_Display_96X96)
-![image](https://statics3.seeedstudio.com/images/product/oled1281281.jpg)
+OLED-Bildschirm
+----
+*(Seeed Studio Grove – Dust sensor)*
+
+<img src=https://www.makeyourschool.de/wp-content/uploads/2018/10/8_feinstaubsensor-1024x1024.jpg width=400px>
+
+Auf den 96×96 Pixel des OLED-Bildschirms können Bilder, Informationen oder auch Diagramme o.ä. in 16 Graustufen und hohem Kontrast dargestellt werden. Der Bildschirm lässt sich direkt oder mithilfe des Grove Shields an einen Arduino oder Raspberry Pi über die serielle Schnittstelle I2C anschließen.
+
+Im Folgenden sind wichtige Hinweise für die jeweiligen Bildschirm-Versionen (bisher nur auf englischer Sprache) aufgezählt:
+
 
 Grove OLED Display 1.12'' V1.0
 ===
@@ -28,18 +36,15 @@ SeeedGrayOled.init(SH1107G);
 For more information, please refer to [wiki page][1]
 
 ----
-This software is written by Visweswara R for seeed studio and is licensed under The GPL v2 License.<br>
+In diesem Repository findet ihr **Bibliotheken und Beispiel-Codes**, mit denen der hier vorliegende Sensor getestet werden kann. Wir richten uns hiermit an **jeden Mentor und jede Mentorin aus dem Rahmen von Make Your School** und ermutigen euch, die hier zusammengestellten Codes **nach Bedarf** und individuell gemachten Erfahrungen **anzupassen**. Beispiele können einfach im Ordner /examples hinzugefügt oder angepasst werden. Wir versuchen das Repository regelmäßig mit Hilfe von euren Änderungsvorschlägen zu aktualisieren.
 
-Contributing to this software is warmly welcomed. You can do this basically by<br>
-[forking](https://help.github.com/articles/fork-a-repo), committing modifications and then [pulling requests](https://help.github.com/articles/using-pull-requests) (follow the links above<br>
-for operating guide). Adding change log and your contact into file header is encouraged.<br>
-Thanks for your contribution.
+Das Repository basiert grundlegend auf den veröffentlichten Informationen und Codes von Seeed Studio. 
+Die deutsche Übersetzung stammt von [Make Your School](https://www.makeyourschool.de/). Fehlinterpretationen und Änderungen vorbehalten. Die Informationen dürfen frei genutzt, angepasst und verbreitet werden, solange die Lizenzrechte (siehe License.txt) beachtet werden.
 
-Seeed is a hardware innovation platform for makers to grow inspirations into differentiating products. By working closely with technology providers of all scale, Seeed provides accessible technologies with quality, speed and supply chain knowledge. When prototypes are ready to iterate, Seeed helps productize 1 to 1,000 pcs using in-house engineering, supply chain management and agile manufacture forces. Seeed also team up with incubators, Chinese tech ecosystem, investors and distribution channels to portal Maker startups beyond.
+**Weitere Informationen:**
 
+[Repository von Seed Studio](https://github.com/Seeed-Studio/)
 
-[1]:http://wiki.seeedstudio.com/Grove-OLED_Display_1.12inch/
+[Offizielles Wiki von Seed Studio](http://wiki.seeedstudio.com/Grove/)
 
-
-
-[![Analytics](https://ga-beacon.appspot.com/UA-46589105-3/OLED_Display_96X96)](https://github.com/igrigorik/ga-beacon)
+[Materialkoffer von Make Your School](https://www.makeyourschool.de/material/)
