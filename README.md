@@ -1,8 +1,8 @@
 OLED-Bildschirm
 ----
-*(Seeed Studio Grove – Dust sensor)*
+*(Seeed Studio Grove – OLED Display 1.12")*
 
-<img src=https://www.makeyourschool.de/wp-content/uploads/2018/10/8_feinstaubsensor-1024x1024.jpg width=400px>
+<img src=https://www.makeyourschool.de/wp-content/uploads/2018/10/63_oled_bildschirm-1024x1024.jpg width=400px>
 
 Auf den 96×96 Pixel des OLED-Bildschirms können Bilder, Informationen oder auch Diagramme o.ä. in 16 Graustufen und hohem Kontrast dargestellt werden. Der Bildschirm lässt sich direkt oder mithilfe des Grove Shields an einen Arduino oder Raspberry Pi über die serielle Schnittstelle I2C anschließen.
 
