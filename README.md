@@ -4,6 +4,8 @@ OLED-Bildschirm
 
 <img src=https://www.makeyourschool.de/wp-content/uploads/2018/10/63_oled_bildschirm-1024x1024.jpg width=400px>
 
+Bildquelle: *Wissenschaft im Dialog*
+
 Auf den 96×96 Pixel des OLED-Bildschirms können Bilder, Informationen oder auch Diagramme o.ä. in 16 Graustufen und hohem Kontrast dargestellt werden. Der Bildschirm lässt sich direkt oder mithilfe des Grove Shields an einen Arduino oder Raspberry Pi über die serielle Schnittstelle I2C anschließen.
 
 Im Folgenden sind wichtige Hinweise für die jeweiligen Bildschirm-Versionen (bisher nur auf englischer Sprache) aufgezählt:
@@ -34,15 +36,18 @@ SeeedGrayOled.init(SH1107G);
 ```
 
 ----
-In diesem Repository findet ihr **Bibliotheken und Beispiel-Codes**, mit denen der hier vorliegende Sensor getestet werden kann. Wir richten uns hiermit an **jeden Mentor und jede Mentorin aus dem Rahmen von Make Your School** und ermutigen euch, die hier zusammengestellten Codes **nach Bedarf** und individuell gemachten Erfahrungen **anzupassen**. Beispiele können einfach im Ordner /examples hinzugefügt oder angepasst werden. Wir versuchen das Repository regelmäßig mit Hilfe von euren Änderungsvorschlägen zu aktualisieren.
 
-Das Repository basiert grundlegend auf den veröffentlichten Informationen und Codes von Seeed Studio. 
-Die deutsche Übersetzung stammt von [Make Your School](https://www.makeyourschool.de/). Fehlinterpretationen und Änderungen vorbehalten. Die Informationen dürfen frei genutzt, angepasst und verbreitet werden, solange die Lizenzrechte (siehe License.txt) beachtet werden.
+Im Rahmen von [*Make Your School*](https://www.makeyourschool.de/) finden an Schulen Hackdays statt. Dabei überlegen sich Schülerinnen und Schüler, wie sie ihre Schule mitgestalten und mit technischen und digitalen Tools noch besser machen können. Unterstützt werden sie dabei von Mentorinnen und Mentoren, die die Veranstaltung begleiten und fachliche Impulse geben. *Make Your School* ist ein Projekt von *Wissenschaft im Dialog*. Die Klaus Tschira Stiftung ist bundesweiter Förderer.
+
+Mit diesen **Bibliotheken und Beispiel-Codes** kann der euch vorliegende Sensor/Aktor getestet werden. Den **Mentorinnen und Mentoren von *Make Your School*** steht es frei, die hier zusammengestellten Codes **nach Bedarf und den individuell gemachten Erfahrungen anzupassen**. Beispiele können einfach im Ordner „examples“ hinzugefügt oder bearbeitet werden. Wir werden eure Beiträge regelmäßig prüfen und das Repository mithilfe eurer Änderungsvorschläge aktualisieren.
+
+Das Repository basiert grundlegend auf den veröffentlichten Informationen und Codes von Seeed Studio. Die deutsche Übersetzung stammt von *Make Your School*, Fehlinterpretationen und Änderungen vorbehalten. Die Informationen dürfen frei genutzt, angepasst und verbreitet werden, solange die Lizenzrechte (siehe License.txt) beachtet werden.
+
 
 **Weitere Informationen:**
 
-[Repository von Seed Studio](https://github.com/Seeed-Studio/)
+[Repository von Seeed Studio](https://github.com/Seeed-Studio/OLED_Display_96X96)
 
-[Offizielles Wiki von Seed Studio](http://wiki.seeedstudio.com/Grove/)
+[Offizielles Wiki von Seeed Studio](http://wiki.seeedstudio.com/Grove-OLED_Display_1.12inch/)
 
-[Materialkoffer von Make Your School](https://www.makeyourschool.de/material/)
+[Materialkoffer von *Make Your School*](https://www.makeyourschool.de/material/oled-bildschirm/)
